@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Atividade Avaliativa 2</string>
+    <string name="limpar">Limpar</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="temperatura_em_graus_celsius">Temperatura em graus Celsius (°C)</string>
+    <string name="calcular">Calcular</string>
+    <string name="conversor_de_temperatura">Conversor de Temperatura</string>
+</resources>

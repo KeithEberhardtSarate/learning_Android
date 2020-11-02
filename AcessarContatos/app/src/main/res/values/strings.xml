@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Acessar Contatos</string>
+    <string name="nome">Nome:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="contatos">Contatos</string>
+    <string name="aplicativo">Aplicativo</string>
+</resources>

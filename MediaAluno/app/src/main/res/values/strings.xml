@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MediaAluno</string>
+    <string name="nota_grau_a">Nota Grau A</string>
+    <string name="nota_grau_b">Nota Grau B</string>
+    <string name="nota_grau_c">Nota Grau C</string>
+    <string name="resultado">Resultado:</string>
+    <string name="passar_dados_para_pr_xima_tela">Passar dados para próxima tela</string>
+    <string name="msgGrauAMaiorQue10">Nota Grau A não pode ser maior que 10</string>
+    <string name="msgGrauBMaiorQue10">Nota Grau B não pode ser maior que 10</string>
+    <string name="msgGrauCMaiorQue10">Nota Grau C não pode ser maior que 10</string>
+    <string name="aprovado">APROVADO</string>
+    <string name="comMedia">com media</string>
+    <string name="reprovado">REPROVADO</string>
+    <string name="resultadoFull">Resultado: %1$s com média %2$s</string>
+    <string name="msgGrauAGraubObrigatorios">Os campos GrauA e GrauB são Obrigatórios</string>
+    <string name="msgCalculePrimeiro">Primeiramente, calcule a média do aluno!</string>
+    <string name="resultadoFull2">Notas: Grau A: %1$s, Grau B: %2$s, Grau C: %3$s\nMédia: %4$s\nResultado: %5$s</string>
+</resources>

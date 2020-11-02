@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cartão Ponto</string>
+    <string name="dayOfWeek0">Domingo</string>
+    <string name="dayOfWeek1">Segunda-feira</string>
+    <string name="dayOfWeek2">Terça-feira</string>
+    <string name="dayOfWeek3">Quarta-feira</string>
+    <string name="dayOfWeek4">Quinta-feira</string>
+    <string name="dayOfWeek5">Sexta-feira</string>
+    <string name="dayOfWeek6">Sábado</string>
+    <string name="currentDate">%1$s, %2$s</string>
+    <string name="str_check">%1$s - %2$s . %3$s - %4$s</string>
+    <string name="endOfficeTimeMsg">Expediente finalizado por hoje!</string>
+    <string name="workingTime">Horas trabalhadas: %s</string>
+    <string name="lunchTime">Intervalo de almoço: %s</string>
+</resources>

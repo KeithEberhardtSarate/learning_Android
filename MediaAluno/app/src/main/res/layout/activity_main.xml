@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/notaGrauA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nota_grau_a" />
+
+        <EditText
+            android:id="@+id/editTextNotaGrauA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notaGrauA"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/notaGrauB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNotaGrauA"
+            android:layout_marginTop="10dp"
+            android:text="@string/nota_grau_b" />
+
+        <EditText
+            android:id="@+id/editTextNotaGrauB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notaGrauB"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/notaGrauC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNotaGrauB"
+            android:layout_marginTop="10dp"
+            android:text="@string/nota_grau_c" />
+
+        <EditText
+            android:id="@+id/editTextNotaGrauC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notaGrauC"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:id="@+id/container_botoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/editTextNotaGrauC"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular" />
+
+            <Button
+                android:id="@+id/btnLimpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limpar" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_botoes"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/resultado"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDadosProximaTela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resultado"
+            android:layout_marginBottom="40dp"
+            android:layout_centerInParent="true"
+            android:text="@string/passar_dados_para_pr_xima_tela" />
+
+    </RelativeLayout>
+</ScrollView>

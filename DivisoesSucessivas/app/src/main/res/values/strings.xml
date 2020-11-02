@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Divisões Sucessivas</string>
+    <string name="valor_1">Valor 1</string>
+    <string name="valor_2">Valor 2</string>
+    <string name="valor_3">Valor 3</string>
+    <string name="valor_4">Valor 4</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+    <string name="passar_dados_para_a_pr_xima_tela">Passar Dados Para a Próxima Tela</string>
+    <string name="resultado">Resultado: %1$s</string>
+    <string name="msgCampoObrigatorio">Todos os campos são obrigatórios</string>
+    <string name="msgValorMaiorQueZero">Todos os valores devem ser maiores que 0</string>
+    <string name="msgPreenchaOsValoresPrimeiramente">Preencha os valores primeiramente!</string>
+    <string name="resultadoFull">Valor1: %1$s\nValor2: %2$s\nValor3: %3$s\nValor4: %4$s\nResultado: %5$s</string>
+</resources>

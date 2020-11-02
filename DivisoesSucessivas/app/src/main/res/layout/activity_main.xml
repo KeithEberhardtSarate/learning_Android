@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/lblValor1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="@string/valor_1" />
+
+        <EditText
+            android:id="@+id/editTextValor1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/lblValor1"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/lblValor2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="@string/valor_2"
+            android:layout_below="@id/editTextValor1"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/editTextValor2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/lblValor2"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/lblValor3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="@string/valor_3"
+            android:layout_below="@id/editTextValor2"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/editTextValor3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/lblValor3"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/lblValor4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="@string/valor_4"
+            android:layout_below="@id/editTextValor3"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/editTextValor4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/lblValor4"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/editTextValor4"
+            android:layout_marginTop="10dp"
+            android:text="@string/calcular" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnCalcular"
+            android:layout_marginTop="5dp"
+            android:text="@string/limpar" />
+
+        <Button
+            android:id="@+id/btnPassarDados"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnLimpar"
+            android:layout_marginTop="20dp"
+            android:text="@string/passar_dados_para_a_pr_xima_tela" />
+
+        <TextView
+            android:id="@+id/lblResultado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnPassarDados"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
